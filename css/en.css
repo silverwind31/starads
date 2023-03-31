@@ -1,0 +1,63 @@
+.hero .hero_about .who_we .who_we_description{
+    text-indent: 500px;
+}
+
+.hero .hero_about .our_statistics .statistics_item{
+    padding: 0 20px;
+}
+
+.hero .hero_about .our_statistics .statistics_item span:first-child{
+    width: 55%;
+    font-size: 32px;
+}
+
+@media (max-width:1300px){
+    .hero .hero_about{
+        flex-wrap: wrap;
+        gap: 0;
+    }
+    .hero .hero_about .who_we{
+        flex: 0 0 auto;
+        width: 50%;
+    }
+    .our_statistics{
+        flex: 0 0 auto;
+        width: 48%;
+    }
+    .hero .hero_about .who_we .who_we_description{
+        text-indent: 0;
+        transform: translate(0);
+    }
+    .hero .hero_about .our_statistics .statistics_item{
+        width: 100%;
+    }
+
+    .section_title{
+        font-size: 28px;
+    }
+
+    .how_connect .section_title .title_text{
+        text-indent: 195px;
+    }
+
+    .works_with_us .section_title .title_text{
+        text-indent: 150px;
+    }
+}
+
+
+@media (max-width: 768px){
+    .hero .hero_about .who_we{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .hero .hero_about .our_statistics .statistics_item span:first-child{
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .works_with_us .section_title .title_text{
+        text-indent: 150px;
+    }
+}
